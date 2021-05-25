@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="71.87">
+<testcase classname="Acceptance testing to validate Search Cars Page is working." name="Validate Used Search Cars Page" time="70.903">
+<system-out><![CDATA[Given I navigate to the  Home Page "https://www.carsguide.com.au" of CarsGuide Website.passed
+When I move to buyandsell Menu..............................................passed
+And click on submenu Used Cars Search link..................................passed
+And select carMaker from AnyMake dropdown in Used Cars Search page..........passed
+And select  carModel from AnyModel dropdown in Used Cars Search page........passed
+And select location  from SelectLocation dropdown in Used Cars Search page..passed
+And select price from maxprice dropdown in Used Cars Search page............passed
+And click on Find_My_Car button in Used Cars Search page....................passed
+Then I should see list of Used cars.........................................passed
+And the page title should match expected title  "Used Audi A4 Under 10000 for Sale Hunter NSW | carsguide".passed
+]]></system-out>
+</testcase>
+</testsuite>

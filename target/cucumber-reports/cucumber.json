@@ -1,0 +1,243 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-20T17:24:40.541Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16540000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.BeforeActions.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Validate Used Search Cars Page",
+        "description": "",
+        "id": "acceptance-testing-to-validate-search-cars-page-is-working.;validate-used-search-cars-page",
+        "after": [
+          {
+            "result": {
+              "duration": 6279000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11239000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to the  Home Page \"https://www.carsguide.com.au\" of CarsGuide Website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.carsguide.com.au\"",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.UsedCarSaleSearchSteps.i_navigate_to_the_home_page_of_cars_guide_website(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 678000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I move to buyandsell Menu",
+            "match": {
+              "location": "steps.UsedCarSaleSearchSteps.i_move_to_buyandsell_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10446000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on submenu Used Cars Search link",
+            "match": {
+              "location": "steps.UsedCarSaleSearchSteps.click_on_submenu_used_cars_search_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1759000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "select carMaker from AnyMake dropdown in Used Cars Search page",
+            "match": {
+              "location": "steps.UsedCarSaleSearchSteps.select_car_maker_from_any_make_dropdown_in_used_cars_search_page(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "carMaker"
+                ]
+              },
+              {
+                "cells": [
+                  "Audi"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 254000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "select  carModel from AnyModel dropdown in Used Cars Search page",
+            "match": {
+              "location": "steps.UsedCarSaleSearchSteps.select_car_model_from_any_model_dropdown_in_used_cars_search_page(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "carModel"
+                ]
+              },
+              {
+                "cells": [
+                  "A4"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 206000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "select location  from SelectLocation dropdown in Used Cars Search page",
+            "match": {
+              "location": "steps.UsedCarSaleSearchSteps.select_location_from_select_location_dropdown_in_used_cars_search_page(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "location"
+                ]
+              },
+              {
+                "cells": [
+                  "NSW - Hunter"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 235000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "select price from maxprice dropdown in Used Cars Search page",
+            "match": {
+              "location": "steps.UsedCarSaleSearchSteps.select_price_from_maxprice_dropdown_in_used_cars_search_page(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "price"
+                ]
+              },
+              {
+                "cells": [
+                  "$10,000"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22860000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click on Find_My_Car button in Used Cars Search page",
+            "match": {
+              "location": "steps.UsedCarSaleSearchSteps.click_on_find_my_car_button_in_used_cars_search_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should see list of Used cars",
+            "match": {
+              "location": "steps.UsedCarSaleSearchSteps.i_should_see_list_of_used_cars()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 147000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the page title should match expected title  \"Used Audi A4 Under 10000 for Sale Hunter NSW | carsguide\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Used Audi A4 Under 10000 for Sale Hunter NSW | carsguide\"",
+                  "offset": 44
+                }
+              ],
+              "location": "steps.UsedCarSaleSearchSteps.the_page_title_should_match_expected_title(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Used-Car-Search"
+          },
+          {
+            "name": "@Used-Car-SearchPositive"
+          }
+        ]
+      }
+    ],
+    "name": "Acceptance testing to validate Search Cars Page is working.",
+    "description": "  In order to validate that \n  the Used Search Cars page is working\n  Performing the Acceptance Testing",
+    "id": "acceptance-testing-to-validate-search-cars-page-is-working.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/UsedCarSaleSearch.feature",
+    "tags": [
+      {
+        "name": "@Used-Car-Search",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
